@@ -22,7 +22,7 @@
 .parent-box { 
     display: flex;
     background-color: rgb(231, 169, 233);
-    padding: 40px; 20px 20px 20px/*shorthand para padding-top, paggind-right,
+    padding: 40px; 20p x 20px 20px/*shorthand para padding-top, paggind-right,
     pagging bottom, padding -left*/
 }
 
