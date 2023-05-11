@@ -1,0 +1,37 @@
+.child-box {
+    /*border-color: black;
+    border-style: solid;
+    border-width: 1px;*/
+    border: black solid 1px; /*shorthand*/
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(160, 89, 228);
+}
+.parent-box div:nth-child(2){
+    background-color:rgb(104, 104, 238)
+}
+    
+.parent-box div:nth-child(3){
+    background-color:rgb(57, 57, 247)
+}
+
+.parent-box div:nth-child(4){
+    background-color:
+}
+.parent-box { 
+    display: flex;
+    background-color: rgb(231, 169, 233);
+    padding: 40px; 20px 20px 20px/*shorthand para padding-top, paggind-right,
+    pagging bottom, padding -left*/
+}
+
+.parent-box > p {
+position: absolute;
+margin-top: -30px;
+left: 25px;
+}
+#justify-content .parent-box{
+    justify-content: center;
+
+}
